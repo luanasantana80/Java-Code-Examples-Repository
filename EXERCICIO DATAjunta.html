@@ -1,0 +1,26 @@
+<!doctype html> 
+<html lang="pt-br">
+	<head>
+		<title>Curso javascript</title>
+		<meta chatset="UTF-8">
+		<script>
+            var data=new Date();
+            var meses=new Array("Janeiro","Fevereiro","Marco","Abril","Maio","Junho","julho","Agosto","Setembro","Outubro","Novembro","Dezembro");
+            var day=data.getDay();
+            var dia=data.getDate();
+            var mes=data.getMonth();
+            var ano=data.getFullYear();
+            var hora=data.getHours();
+            var min=data.getMinutes();
+            var seg=data.getSeconds();
+            var eua=data.toDateString();
+            var br=data.toLocaleDateString();
+            var brehora=data.toLocaleString();
+        </script>
+	</head>
+	<body>
+        <script>
+            document.write("HOJE NO DIA DO MES " + dia + " E DIA DA SEMANA  " + day + " NO MES " +meses[mes] + " DO ANO " + ano + " DA HORA " + hora + " DOS MINUTOS " + min + " DOS SEGUNDOS " + seg + " QUE NO PADRAO DOS ESTADOS UNIDOS FICA EM " + eua + " E NO BRASIL FICA " + br + " E QUE COM HORA FICA " + brehora+ " HOJE SENHORA E SENHORES E O DIA DE CONTRA A CORRUPÇÃO <br>");
+        </script>
+	</body>
+</html>
