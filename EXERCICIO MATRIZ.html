@@ -1,0 +1,42 @@
+<!doctype html> 
+<html lang="pt-br">
+	<head>
+		<title>Curso javascript</title>
+		<meta chatset="UTF-8">
+		<script>
+            function notas(n1, n2, n3, n4){
+                var soma=n1+n2+n3+n4;
+                if(soma>=60){
+                    document.write("<span style='color: #00F'>Aprovado</span>");
+                }else{
+                    document.write("<span style='color: #F00'>Reprovado</span>");
+                }
+            }
+            aluno=["Xaozim",20,10,15,5];
+            alunos[0]=aluno;
+            aluno=["Yanke",20,10,15,25];
+            alunos[1]=aluno;
+            aluno=["Luana",20,8,15,10];
+            alunos[2]=aluno;
+            aluno=["Guilherme",10,10,15,5];
+            alunos[3]=aluno;
+            aluno=["Godoido",30,10,15,5];
+            alunos[4]=aluno;
+            aluno=["Luca",20,4,15,5];
+            alunos[5]=aluno;
+            aluno=["Bah",20,3,15,5];
+            alunos[6]=aluno;
+            aluno=["Playflick",12,10,15,5];
+            alunos[7]=aluno;
+            for(i=0; i<alunos.length; i++){
+                document.write("Aluno: " + alunos[i][0] + "=");
+                notas(alunos[i][1], alunos[i][2], alunos[i][3], alunos[i][4]);
+            }
+        </script>
+	</head>
+	<body>
+        <script>
+            
+        </script>
+	</body>
+</html>
