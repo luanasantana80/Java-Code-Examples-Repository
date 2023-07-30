@@ -1,6 +1,6 @@
 **Nome do Repositório: Java Code Examples Repository**
 
-![Sugestão de Imagem](https://exemplo.com/imagem.jpg)
+
 
 ## Descrição
 Bem-vindo ao repositório "Java Code Examples Repository"! Neste repositório, você encontrará uma coleção de exemplos de código em Java para ajudá-lo a aprender e aprimorar suas habilidades de programação. Os exemplos abrangem vários conceitos e tópicos do Java, desde o básico até tópicos avançados.
